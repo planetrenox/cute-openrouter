@@ -1,5 +1,12 @@
 // require('dotenv').config();
-console.log("Test npm run index");
+
+async function test()
+{
+    const response = await openrouter.api.chat(process.env.OPENROUTER_API_KEY, "Why do girl socks espacially thigh highs look so good esppacially their everything");
+    const message = await response.json(); // This line reads the response body
+    console.log(message);
+    console.log(message.choices[0].message);
+}
 
 const openrouter = (() =>
 {
@@ -7,26 +14,22 @@ const openrouter = (() =>
 
     return {
         api: {
-            chat: () =>
+            chat: (apiKey, userTxt, model = "gryphe/mythomax-l2-13b") =>
             {
-                console.log("Starting...");
-                fetch("https://openrouter.ai/api/v1/chat/completions", {
-                    method: "POST",
-                    headers: {
-                        "Authorization": `Bearer ${OPENROUTER_API_KEY}`,
+                console.log("Starting chat...");
+                return fetch("https://openrouter.ai/api/v1/chat/completions", {
+                    method: "POST", headers: {
+                        "Authorization": `Bearer ${apiKey}`,
                         "Content-Type": "application/json"
-                    },
-                    body: JSON.stringify({
-                        "model": "openai/gpt-3.5-turbo", // Optional (user controls the default),
-                        "messages": [
-                            {"role": "user", "content": "What is the meaning of life?"},
-                        ]
+                    }, body: JSON.stringify({
+                        "model": model, "messages": [{"role": "user", "content": userTxt}]
                     })
                 });
-            },
-        },
+            }
+        }
     };
 })();
 
+//test();
 
-module.exports = {provider};
+module.exports = {openrouter};

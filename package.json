@@ -1,20 +1,23 @@
 {
   "name": "cute-openrouter",
   "version": "0.1.0",
-  "description": "Experimental piercer stronghold. No tests.",
+  "description": "openrouter quick implementation",
   "main": "src/index.js",
   "bin": {
     "cute-openrouter": "src/cli.js"
   },
   "scripts": {
-    "postinstall": "echo 'Customize this postinstall string in package.json'",
+    "postinstall": "echo 'Thank you.'",
     "index": "node ./src/index.js",
     "cli": "node ./src/cli.js"
   },
   "keywords": [
-    "cute"
+    "cute",
+    "ai",
+    "llm",
+    "openrouter"
   ],
-  "author": "",
+  "author": "https://bit.ly/incessant-vibration",
   "license": "CC-BY-4.0",
-  "homepage": ""
+  "homepage": "https://bit.ly/incessant-vibration"
 }
