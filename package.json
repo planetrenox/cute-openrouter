@@ -1,0 +1,20 @@
+{
+  "name": "cute-openrouter",
+  "version": "0.1.0",
+  "description": "Experimental piercer stronghold. No tests.",
+  "main": "src/index.js",
+  "bin": {
+    "cute-openrouter": "src/cli.js"
+  },
+  "scripts": {
+    "postinstall": "echo 'Customize this postinstall string in package.json'",
+    "index": "node ./src/index.js",
+    "cli": "node ./src/cli.js"
+  },
+  "keywords": [
+    "cute"
+  ],
+  "author": "",
+  "license": "CC-BY-4.0",
+  "homepage": ""
+}
