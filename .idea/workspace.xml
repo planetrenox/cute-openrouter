@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3532d38d-59a9-4a6b-b753-40f8ba43d799" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    <list default="true" id="3532d38d-59a9-4a6b-b753-40f8ba43d799" name="Changes" comment="0.1.0">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +43,7 @@
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.11.0&quot;,
     &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.11.17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/SDS/WebstormProjects/cute-npm-init&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/SDS/WebstormProjects/cute-openrouter&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -78,8 +76,19 @@
       <workItem from="1707381501488" duration="291000" />
       <workItem from="1707741657605" duration="2059000" />
       <workItem from="1707798039941" duration="2785000" />
-      <workItem from="1707803798152" duration="2947000" />
+      <workItem from="1707803798152" duration="3071000" />
+      <workItem from="1707899035382" duration="10000" />
+      <workItem from="1707985202431" duration="12000" />
     </task>
+    <task id="LOCAL-00001" summary="0.1.0">
+      <option name="closed" value="true" />
+      <created>1707806870847</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707806870847</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,5 +97,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="0.1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.1.0" />
   </component>
 </project>
